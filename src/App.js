@@ -1,10 +1,5 @@
 import './index.css';
 import Nav from './components/Nav';
-import Landing from './components/Landing';
-import Highlights from './components/Highlights';
-import Featured from './components/Featured';
-import Discounted from './components/Discounted';
-import Explore from './components/Explore';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Books from './pages/Books';

@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useRef, useState } from "react";
 import Rating from "../ui/Rating";
 import Price from "../ui/Price";
@@ -31,7 +30,7 @@ const Book = ({ book }) => {
         <>
           <Link to={`/books/${book.id}`}>
             <figure className="book__img--wrapper">
-              <img className="book__img" src={img.src} />
+              <img className="book__img" src={img.src} alt="" />
             </figure>
           </Link>
           <div className="book__title">

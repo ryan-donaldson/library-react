@@ -3,9 +3,6 @@ import Book from './ui/Book';
 import { books } from '../data.js'
 
 const Featured = () => {
-  function getFiveStarBooks() {
-    return 
-  }
 
   return (
     <section id="features">
